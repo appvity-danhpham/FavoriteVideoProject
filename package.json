@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/appvity-danhpham/FavoriteVideoProject/issues"
   },
-  "homepage": "https://github.com/appvity-danhpham/FavoriteVideoProject#readme"
+  "homepage": "https://github.com/appvity-danhpham/FavoriteVideoProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
